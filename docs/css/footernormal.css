@@ -44,12 +44,15 @@
         flex-direction: column;
         align-items: flex-end;
 
+        
+
         /* Footer Signup Section */
         .footer-signup {
           margin-top: 10px;
 
           button {
             background-color: #8e24aa;
+            margin-bottom: 20px;
             color: white;
             padding: 10px 20px;
             border: none;
@@ -70,6 +73,12 @@
             outline-offset: 2px;
           }
         }
+        .footer-brand{
+          .footer-icons{
+            height: 25px;
+            margin: 1px;
+          }
+        }
       }
     }
     /* Media Query for Small Screens */
@@ -77,14 +86,16 @@
       .footer-container {
         flex-direction: column;
         align-items: center;
+        
       }
 
       .footer-left,
       .footer-right {
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
         padding-left: 0; /* Remove left padding for small screens */
         padding-right: 0; /* Remove right padding for small screens */
+        
       }
 
       .footer-left a {

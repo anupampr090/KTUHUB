@@ -6,7 +6,6 @@
     padding: 20px 5%;
     justify-content: space-around;
     margin-top: 0;
-    margin-bottom: 200px;
     border: 2px solid black;
     border-radius: 20px;
     border-top-left-radius: 0;
@@ -27,9 +26,11 @@
         align-items: center;
         text-align: center;
         h1 {
+          
           display: flex;
           font-size: clamp(2.5rem, 6vw, 6rem); /* Scales dynamically */
           color: rgb(21, 183, 107);
+          
         }
       }
 
@@ -68,6 +69,53 @@
         }
       }
     }
+  }
+
+  /* Stats Section */
+  .stats {
+    margin-bottom: 200px;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4, 1fr); /* Four equally-sized columns */
+    gap: 1.5rem; /* Space between boxes */
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+
+  .stat-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    border: 2px solid #ddd; /* Box border */
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effects */
+  }
+
+  .stat-box h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #15b76b; /* Green text for standout effect */
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-box p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+
+  .stat-box img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .stat-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Slight hover pop-out */
   }
 
   /*FOOTER in footernormal css file*/

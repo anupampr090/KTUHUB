@@ -19,7 +19,7 @@ a:link {
   }
   
 .main-content {
-  flex: 1; /* Take up remaining space, pushing the footer to the bottom */
+   /* Take up remaining space, pushing the footer to the bottom */
 
   .navbar {
     position: sticky;
