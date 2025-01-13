@@ -15,4 +15,4 @@ Tech Stack:-
 Frontend: HTML, CSS, JavaScript, React.js
 Backend: Node.js, Express.js
 Database: MongoDB
-Deployment: [Your Deployment Platform - e.g., Vercel/Heroku/AWS]
+
